@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-// import 'node_modules/bootstrap/dist/css/bootstrap.min.css';
+import '/node_modules/bootstrap/dist/css/bootstrap.min.css';
 import InputForm from './components/InputForm';
 import GeneratedCode from './components/GeneratedCode';
-// import Navbar from './components/Navbar';
-// import History from './components/History';
+import Navbar from './components/Navbar';
+import History from './components/History';
 import './App.css';
 
 function App() {
@@ -32,13 +32,13 @@ function App() {
 
   return (
     <div className="App">
-      {/* <Navbar />
-      <div className="container mt-4"> */}
+      <Navbar />
+      <div className="container mt-4">
         <h1>Code Generation using ChatGPT</h1>
         <InputForm onGenerateCode={handleGenerateCode} />
         <GeneratedCode code={generatedCode} />
-        {/* <History />
-      </div> */}
+        <History />
+      </div>
     </div>
   );
 }
