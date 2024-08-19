@@ -28,7 +28,7 @@ This project is a web application that uses OpenAI's GPT-3 to generate code base
    ```
    cd backend
    python3 -m venv venv
-   source venv/Scripts/activate
+   venv/Scripts/activate
    pip install -r requirements.txt
    ```
 
