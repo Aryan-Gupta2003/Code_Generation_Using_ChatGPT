@@ -38,7 +38,7 @@ This project is a web application that uses OpenAI's GPT-3 to generate code base
    cd frontend
    npm init -y
    npm install react react-dom
-   npm install react-bootstrap
+   npm install react-bootstrap@latest
    npm install react-scripts
    ```
 
